@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOBLO</title>
+
+    <!------------ tailwind css stylesheet cdn ----------------->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!--------------- css stylesheet -------------->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------ font style Playfair Display ------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!------------------ font style Lato ------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <!--------------- font awesome stylesheet -------------->
+
+    <script src="https://kit.fontawesome.com/27be6a1e04.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!---------------- navbar ---------------------->
+
+    <header>
+        <div class="flex flex-row w-10/12 mx-auto pt-12 pb-12 items-center justify-between">
+            <div>
+                <h3 class="text-2xl"><span class="orange-text">FOO</span>BLO</h3>
+            </div>
+            <div>
+                <nav>
+                    <ul class="flex flex-row space-x-12">
+                        <li><a href="#" class="no-underline font-normal">Home</a></li>
+                        <li><a href="#" class="no-underline font-normal">Recipes</a></li>
+                        <li><a href="#" class="no-underline font-normal">Pages</a></li>
+                        <li><a href="#" class="no-underline font-normal">About Me</a></li>
+                        <li><a href="#" class="no-underline font-normal">Blog</a></li>
+                        <li><a href="#" class="no-underline font-normal">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <button class="rounded-full shadow-md px-3 py-2 text-xs font-normal"><i
+                        class="fas fa-search pr-4 orange-text"></i>Hit enter to search</button>
+            </div>
+        </div>
+
+        <!---------- header image positioning ----------->
+
+        <div class="mb-10 relative">
+            <img class="w-100" src="Images/Backgroud Image.png" alt="">
+
+            <div class="absolute left-96 top-32 text-white items-center">
+                <div>
+                    <h1 class="text-7xl text-center">Mexican Grilled</h1>
+                    <h1 class="text-7xl text-center">Corn Recipe</h1>
+                </div>
+                <div class="flex flex-row justify-between px-24 mt-10">
+                    <p><i class="fas fa-utensils orange-text pr-2"></i>4 Servicing</p>
+                    <p><i class="far fa-clock orange-text pr-2"></i>40 Minute</p>
+                    <p><i class="far fa-user orange-text pr-2"></i>Luice Fonci</p>
+                </div>
+                <div class="absolute left-1/3 ml-7">
+                    <button class="rounded-sm text-white p-2 mt-5">View Recipes</button>
+                </div>
+            </div>
+
+            <div class="absolute top-3/4 mt-10 flex flex-row justify-between mx-20">
+                <img src="Images/bg image-1.png" alt="">
+                <img src="Images/bg image-2.png" alt="">
+                <img src="Images/Rectangle 6.png" alt="">
+                <img src="Images/Rectangle 7.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!--------- main section starting ---------->
+
+    <main class="w-10/12 mx-auto mt-56">
+        <div class="grid grid-cols-3 gap-x-8">
+            <div class="col-span-2">
+                <h1 class="text-4xl">Most Popular Recipes</h1>
+                <hr class="my-3">
+            </div>
+            <div>
+                <h1 class="text-2xl">Author</h1>
+                <hr class="my-5">
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-x-8 mb-2">
+            <div class="col-span-2">
+                <div>
+                    <div class="grid grid-cols-2 grid-rows-1 gap-2">
+                        <div class="relative">
+                            <img class="h-72" src="Images/Image.png" alt="">
+                            <div class="absolute text-white items-center">
+                                <div class="relative left-10 bottom-16">
+                                    <h1 class="text-sm text-center">Tiny Apple Pies with Cinnamon</h1>
+                                </div>
+                                <div class="relative flex flex-row justify-between left-8 bottom-14">
+                                    <p class="text-sm pr-2"><i class="fas fa-utensils orange-text pr-2"></i>4 Servicing
+                                    </p>
+                                    <p class="text-sm pr-2"><i class="far fa-clock orange-text  pr-2"></i>40 Minute</p>
+                                    <p class="text-sm pr-2"><i class="far fa-user orange-text pr-2"></i>Luice Fonci</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="h-72 w-screen" src="Images/Recipes-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------- right side panel 1 ------------>
+
+            <div>
+                <img class="mx-auto" src="Images/Image (1).png" alt="">
+                <h1 class="text-2xl text-center">Luice Fonci</h1>
+                <h1 class="text-center text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo,
+                    cursus velit commodo</h1>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-x-8">
+            <div class="col-span-2">
+                <div>
+                    <div class="grid grid-cols-2 gap-2">
+                        <img class="h-72 w-screen" src="Images/Recipes-3.png" alt="">
+                        <img class="h-72 w-screen" src="Images/Recipes-4.png" alt="">
+                    </div>
+                </div>
+                <div class="mt-10 flex flex-row text-center justify-center gap-5">
+                    <p class="text-2xl orange-text">1</p>
+                    <p class="text-2xl">2</p>
+                    <p class="text-2xl">3</p>
+                    <p class="text-2xl">></p>
+                </div>
+                <div class="py-8 my-32 flex flex-row bg-red-200">
+                    <div class="w-1/5">
+                        <img src="Images/Image (2).png" alt="">
+                        <p class="text-center text-sm">Mexican Grilled
+                            Corn Recipe</p>
+                    </div>
+                    <div class="w-1/5">
+                        <img src="Images/Image (3).png" alt="">
+                        <p class="px-2 text-center text-sm">Roast Chicken
+                            With Lemon Gravy</p>
+                    </div>
+                    <div class="w-1/5">
+                        <img src="Images/Image (4).png" alt="">
+                        <p class="px-2 text-center text-sm">Avocado Melon salad
+                            With Lime Vinagrette</p>
+                    </div>
+                    <div class="w-1/5">
+                        <img src="Images/Image-4.png" alt="">
+                        <p class="mx-2 text-center text-sm">Chunky Beef Stew</p>
+                    </div>
+                    <div class="w-1/5">
+                        <img src="Images/Image (5).png" alt=""><img src="" alt="">
+                        <p class="mx-2 text-center text-sm">Farmhouse Vegetable
+                            And Barley Soup</p>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------- right side panel 2----------------------------->
+
+            <div>
+                <h1 class="text-xl mt-5">Subscribe & Follow</h1>
+                <hr class="my-5">
+                <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-2">
+                    <div class="h-11 bg-gray-300 text-center pt-2"><i
+                            class="fab fa-facebook-square orange-text mr-2"></i>Follow me on</div>
+                    <div class="h-11 bg-gray-300 text-center pt-2"><i
+                            class="fab fa-instagram orange-text mr-2"></i>Follow me on</div>
+                    <div class="h-11 bg-gray-300 text-center pt-2"><i class="fab fa-twitter orange-text mr-2"></i>Follow
+                        me on</div>
+                    <div class="h-11 bg-gray-300 text-center pt-2"><i class="fab fa-youtube orange-text mr-2"></i>Follow
+                        me on</div>
+                </div>
+                <div class="mt-5">
+                    <img class="w-screen" src="Images/Ad.png" alt="">
+                </div>
+                <div class="bg-gray-300 py-8 pl-8 mt-5">
+                    <h1 class="text-xl mb-5">Get Latest Updates</h1>
+                    <div class="grid grid-flow-col grid-cols-1 grid-rows-2 gap-2">
+                        <div>
+                            <input class="mb-3 text-black w-10/12 p-2" type="text" placeholder="Your email address">
+                        </div>
+                        <div>
+                            <button id="grid-button" class="text-center text-white w-10/12 p-2">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!------------------------ recipe section part ----------------------->
+
+    <section class="w-10/12 mx-auto mt-2">
+        <div class="grid grid-cols-3 gap-x-8">
+            <div class="col-span-2">
+                <h1 class="text-4xl">Latest Recipes</h1>
+                <hr class="my-3">
+            </div>
+            <div>
+                <h1 class="text-2xl">Trending Recipes</h1>
+                <hr class="my-5">
+            </div>
+        </div>
+        <div>
+            <div class="grid grid-cols-3 gap-x-8">
+                <div class="col-span-2">
+                    <div class="grid grid-cols-3 grid-rows-2 gap-2">
+                        <div class="relative">
+                            <img class="h-56" src="Images/Image (6).png" alt="">
+                            <div class="absolute text-white items-center">
+                                <div class="relative left-2 bottom-14">
+                                    <h1 class="text-xs text-center">Lactose Free Homemade Cheese</h1>
+                                </div>
+                                <div class="relative flex flex-row justify-between left-1 bottom-12">
+                                    <p class="text-xs pr-1"><i class="fas fa-utensils orange-text pr-1"></i>4 Servicing
+                                    </p>
+                                    <p class="text-xs pr-1"><i class="far fa-clock orange-text pr-1"></i>40 Minute</p>
+                                    <p class="text-xs pr-1"><i class="far fa-user orange-text pr-1"></i>Luice Fonci</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img class="h-56" src="Images/Image (7).png" alt="">
+                            <div class="absolute text-white items-center">
+                                <div class="relative left-2 bottom-14">
+                                    <h1 class="text-xs text-center">Tiny Apple Pies with Cinnamon</h1>
+                                </div>
+                                <div class="relative flex flex-row justify-between left-1 bottom-12">
+                                    <p class="text-xs pr-1"><i class="fas fa-utensils orange-text pr-1"></i>4 Servicing
+                                    </p>
+                                    <p class="text-xs pr-1"><i class="far fa-clock orange-text  pr-1"></i>40 Minute</p>
+                                    <p class="text-xs pr-1"><i class="far fa-user orange-text pr-1"></i>Luice Fonci</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img class="h-56" src="Images/Image (8).png" alt="">
+                            <div class="absolute text-white items-center">
+                                <div class="relative left-2 bottom-14">
+                                    <h1 class="text-xs text-center">Meal Prep Breakfast For The Week</h1>
+                                </div>
+                                <div class="relative flex flex-row justify-between left-1 bottom-12">
+                                    <p class="text-xs pr-1"><i class="fas fa-utensils orange-text pr-1"></i>4 Servicing
+                                    </p>
+                                    <p class="text-xs pr-1"><i class="far fa-clock orange-text pr-1"></i>40 Minute</p>
+                                    <p class="text-xs pr-1"><i class="far fa-user orange-text pr-1"></i>Luice Fonci</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <img class="h-56" src="Images/image4.png" alt="">
+                            <div class="absolute text-white items-center">
+                                <div class="relative left-2 bottom-14">
+                                    <h1 class="text-xs text-center">Giant Multi-Stuffed Soft Pretzel</h1>
+                                </div>
+                                <div class="relative flex flex-row justify-between left-1 bottom-12">
+                                    <p class="text-xs pr-1"><i class="fas fa-utensils orange-text pr-1"></i>4 Servicing
+                                    </p>
+                                    <p class="text-xs pr-1"><i class="far fa-clock orange-text pr-1"></i>40 Minute</p>
+                                    <p class="text-xs pr-1"><i class="far fa-user orange-text pr-1"></i>Luice Fonci</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="h-56" src="Images/Recipes-5.png" alt="">
+                        <img class="h-56" src="Images/Recipes-6.png" alt="">
+                    </div>
+                    <div class="mt-10 flex flex-row text-center justify-center gap-5">
+                        <p class="text-2xl orange-text">1</p>
+                        <p class="text-2xl">2</p>
+                        <p class="text-2xl">3</p>
+                        <p class="text-2xl">></p>
+                    </div>
+                </div>
+
+                <!------------------- right side panel 3----------------------------->
+
+                <div class="grid grid-cols-1 grid-rows-5 gap-y-1">
+                    <div class="flex gap-2">
+                        <div>
+                            <img class="h-18 w-28" src="Images/Image (14).png" alt="">
+                        </div>
+                        <div>
+                            <p>Gluten-Free Almond Cake
+                                with Berries</p>
+                            <p><i class="far fa-user orange-text pr-2"></i><span class="text-gray-300">By</span> Luice
+                                Fonci</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img class="h-18 w-28" src="Images/Image (15).png" alt="">
+                        </div>
+                        <div>
+                            <p>Enjoy My Favourite Molten
+                                Chocolate Cake</p>
+                            <p><i class="far fa-user orange-text pr-2"></i><span class="text-gray-300">By</span> Luice
+                                Fonci</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img class="h-18 w-24" src="Images/Image (16).png" alt="">
+                        </div>
+                        <div>
+                            <p>Perfect avocado toast for
+                                breakfast</p>
+                            <p><i class="far fa-user orange-text pr-2"></i><span class="text-gray-300">By</span> Luice
+                                Fonci</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img class="h-18 w-32" src="Images/Image (17).png" alt="">
+                        </div>
+                        <div>
+                            <p>Pumpkin Kale Patties with
+                                Coconut Cilantro Rice</p>
+                            <p><i class="far fa-user orange-text pr-2"></i><span class="text-gray-300">By</span> Luice
+                                Fonci</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img class="h-20 w-24" src="Images/Image (18).png" alt="">
+                        </div>
+                        <div>
+                            <p>The Healhiest Version of
+                                Yourself
+                            </p>
+                            <p><i class="far fa-user orange-text pr-2"></i><span class="text-gray-300">By</span> Luice
+                                Fonci</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- lowest image section part ----------------->
+
+    <section class="my-16 flex">
+        <img class="w-1/5" src="Images/Image (9).png" alt="">
+        <img class="w-1/5" src="Images/Image (10).png" alt="">
+        <img class="w-1/5" src="Images/Image (11).png" alt="">
+        <img class="w-1/5" src="Images/Image (12).png" alt="">
+        <img class="w-1/5" src="Images/Image (13).png" alt="">
+    </section>
+
+    <!-------------------- last section part ---------------------------->
+
+    <section class="w-10/12 mx-auto grid grid-cols-4 grid-rows-1 gap-x-4 mb-20">
+        <div>
+            <h1 class="text-2xl py-2">About</h1>
+            <p class="font-thin text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat posuere
+                mauris ac scelerisque. Gravida
+                id dui arcu nibh</p>
+        </div>
+        <div>
+            <h1 class="text-2xl py-2">Archives</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Jun 2019</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Jun 2018</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Jun 2017-14</h1>
+        </div>
+        <div>
+            <h1 class="text-2xl py-2">Recipes</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Browse Recipes</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Recipe Page</h1>
+            <h1 class="font-thin text-gray-600"><span class="orange-text"> &#x25CF;</span> Submit Recipe</h1>
+        </div>
+        <div>
+            <h1 class="text-2xl py-2">Newsletter</h1>
+            <h1 class="font-thin text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat
+                posuere mauris </h1>
+            <div class="flex mt-5">
+                <div>
+                    <h1 class="font-thin bg-gray-300 text-black p-2">Your email address</h1>
+                </div>
+                <div>
+                    <button id="grid-button" class="font-thintext-center text-white p-2">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- footer part ------------>
+
+    <footer class="py-5 bg-black">
+        <h1 class="text-white text-center">© Copyright 2020 by ojjomedia. All Rights Reserved</h1>
+    </footer>
+</body>
+
+</html>

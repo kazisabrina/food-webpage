@@ -1,0 +1,28 @@
+/***************** common utilities ***********************/
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+h3,nav,button,p{
+    font-family: 'Lato', sans-serif;
+}
+
+/***************** main css part *****************/
+
+.orange-text{
+    color: #FE4A51;
+}
+.rounded-sm{
+    background-color: #FE4A51;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to left,  #2D2D2D 90%, #FE4A51 10%);
+}
+::placeholder {
+    color: blue;
+  }
+#grid-button{
+    background-color: #FE4A51;
+}
